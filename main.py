@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request
 
 from redis import RedisCustom
+from surface_info.surface_controller import SurfaceController
 
 app = Flask(__name__)
 
